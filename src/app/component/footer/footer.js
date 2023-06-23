@@ -7,7 +7,7 @@ const Footer = () => {
 
         <div className=' flex justify-center self-center w-9/12 py-10 '>
           <div className='w-64pl-5 mx-20'>
-            <p className='font-bold text-2xl text-lime-600'>UCode University</p>
+            <p className='font-bold text-2xl text-lime-600'>UCode Clinic</p>
             <p>123, Paghanapin Street </p>
             <p>  Talamak Village Tondo, Manila</p>
             <br />
@@ -33,7 +33,7 @@ const Footer = () => {
         </div>
       <div  className='bg-green-700 flex py-5 justify-between items-center px-16'>
         <div>
-          <p  className='text-lime-500'>© Copyright <strong> WD University </strong>- All Rights Reserved</p>
+          <p  className='text-lime-500'>© Copyright <strong> UCode Clinic </strong>- All Rights Reserved</p>
         </div>
         <div className='flex'>
         <Link href='http://www.facebook.com' className='ml-3 text-4xl '> 
