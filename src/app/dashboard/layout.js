@@ -21,7 +21,8 @@ const DashboardLayout = ({children}) => {
     </div>
 </form>
 
-<button type="button" class="text-white bg-gradient-to-r from-green-400 via-green-500 to-green-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-green-300 dark:focus:ring-green-800 shadow-lg shadow-green-500/50 dark:shadow-lg dark:shadow-green-800/80 font-medium rounded-2xl text-sm px-5 py-2.5 text-center mr-2 mb-2 mt-2">Sign-out</button>
+<Link href="/">
+<button type="button" class="text-white bg-gradient-to-r from-green-400 via-green-500 to-green-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-green-300 dark:focus:ring-green-800 shadow-lg shadow-green-500/50 dark:shadow-lg dark:shadow-green-800/80 font-medium rounded-2xl text-sm px-5 py-2.5 text-center mr-2 mb-2 mt-2">Sign-out</button></Link>
 
 
 </div>
@@ -30,26 +31,30 @@ const DashboardLayout = ({children}) => {
     {/* =========Header============== */}
 
 <header  className='header flex justify-end  py-8'>
-  <div className='pl-16 w-80 z-10'>
-     <p className=' text-6xl font-semibold'>Overview Conditions</p>
+  <div className='subhead mr-20 w-80 z-10'>
+     <p className='welcome text-6xl font-semibold'>Welcome to Admin Dashboard!</p>
   </div>
-  <div  className='flex bg-slate-50 rounded-full px-24'>
+  <div  className='bandaide flex bg-slate-50 rounded-full px-24 '>
     <div className='pt-8'>
-      <p className=' text-5xl font-semibold'>Hello, Admin Inoue!</p>
-      <p className=' text-2xl  pt-2'>"Save one life, you're a hero, Save 100 lives, you're a nurse"</p>
+      <p className='hello text-5xl font-semibold'>Hello, Admin Inoue!</p>
+      <p className='life text-2xl  pt-2'>"Save one life, you're a hero, Save 100 lives, you're a nurse"</p>
     </div>
-    <div className='admin-img rounded-3xl  mx-8'>
-      <img src="/picture/orihime.jpg" width="150" alt="nothing yet" className=' rounded-xl'/>
+    <div className='admin-img rounded-3xl h-56 mx-8 my-2'>
+      <img src="/picture/orihime.jpg" width="153" alt="nothing yet" className=' rounded-xl'/>
     </div>
   </div>
 </header>
 
-
-
-
     {/* =========Header End========== */}
 
-      <h1 className='text-green-700'>Sample Text</h1>
+    {/* =============Sidebar============== */}
+
+
+
+    {/* =============Sidebar End+========= */}
+
+
+    
       {children}
 
       <footer>
@@ -67,9 +72,9 @@ const DashboardLayout = ({children}) => {
 
           <div className=' flex flex-col w-64 pl-24 mx-20'>
               <p className='font-bold text-lg text-lime-600'>Useful Links</p>    
-              <Link href="/"><span className='underline leading-3'>Home</span></Link>
-              <Link href="/about"><span className='underline'>About</span></Link>
-              <Link href="/contact"><span className='underline'>Contact Us</span></Link>
+              <Link href="/"><span className=''>Home</span></Link>
+              <Link href="/about"><span className=''>About</span></Link>
+              <Link href="/contact"><span className=''>Contact Us</span></Link>
             
                 
               </div>
