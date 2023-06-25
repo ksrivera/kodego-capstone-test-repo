@@ -1,12 +1,12 @@
 import React from 'react'
 
-const ForFollowUp
+const Consultation
  = () => {
   return (
-    <div>ForFollowUp
+    <div>Consultation
         
     </div>
   )
 }
 
-export default ForFollowUp
+export default Consultation

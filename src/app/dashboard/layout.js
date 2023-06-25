@@ -8,21 +8,10 @@ const DashboardLayout = ({children}) => {
     {/* =========Navbar========   */}
 <div className='flex justify-around pt-4 pb-4 bg-gray-300'>
 
-    <form>   
-    <label for="default-search" class="mb-2 text-sm font-medium text-gray-900 sr-only dark:text-white">Search</label>
-    <div class="relative w-96">
-        <div class="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
-            <svg aria-hidden="true" class="w-5 h-5 text-gray-500 dark:text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg>
-        </div>
-        
-        <input type="search" id="default-search" class="block w-64 p-4 pl-10 text-sm text-gray-900 border border-gray-300 rounded-3xl bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Enter Student #, Employee #.." required/>
-        
-        <button type="submit" class="text-white absolute right-2.5 bottom-1.5 bg-gradient-to-r from-green-400 via-green-500 to-green-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-green-300  font-medium dark:shadow-green-800/80 dark:hover:bg-green-400 dark:focus:ring-green-800 rounded-2xl text-sm px-5 py-2.5 ">Search</button>
-    </div>
-</form>
+
 
 <Link href="/">
-<button type="button" class="text-white bg-gradient-to-r from-green-400 via-green-500 to-green-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-green-300 dark:focus:ring-green-800 shadow-lg shadow-green-500/50 dark:shadow-lg dark:shadow-green-800/80 font-medium rounded-2xl text-sm px-5 py-2.5 text-center mr-2 mb-2 mt-2">Sign-out</button></Link>
+<button type="button" class="text-white bg-gradient-to-r from-green-400 via-green-500 to-green-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-green-300 shadow-lg shadow-green-500/50 font-medium rounded-2xl text-sm px-5 py-2.5 text-center mr-2 mb-2 mt-2">Sign-out</button></Link>
 
 
 </div>
@@ -34,10 +23,10 @@ const DashboardLayout = ({children}) => {
   <div className='subhead mr-20 w-80 z-10'>
      <p className='welcome text-6xl font-semibold'>Welcome to Admin Dashboard!</p>
   </div>
-  <div  className='bandaide flex bg-slate-50 rounded-full px-24 '>
+  <div  className='bandaide flex justify-end bg-slate-50 rounded-full px-24 '>
     <div className='pt-8'>
       <p className='hello text-5xl font-semibold'>Hello, Admin Inoue!</p>
-      <p className='life text-2xl  pt-2'>"Save one life, you're a hero, Save 100 lives, you're a nurse"</p>
+      <p className='life text-2xl pt-2'>"Save one life, you're a hero, Save 100 lives, you're a nurse"</p>
     </div>
     <div className='admin-img rounded-3xl h-56 mx-8 my-2'>
       <img src="/picture/orihime.jpg" width="153" alt="nothing yet" className=' rounded-xl'/>
@@ -46,19 +35,36 @@ const DashboardLayout = ({children}) => {
 </header>
 
     {/* =========Header End========== */}
-
+{/* #############Sidebar and Children Section############# */}
+<div id="sidebarandchildren" className='flex'>
+    
     {/* =============Sidebar============== */}
 
+<div id="sidebar" className='flex flex-col'>
+  <div className='p-10'>
+        <div>
+        <Link href="/dashboard/patient_queueing"> <button type="button" class="text-white bg-gradient-to-r from-green-400 via-green-500 to-green-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-green-300  shadow-lg shadow-green-500/50   font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2">Patient Queue</button></Link>
+        </div>
+        <div>
+        <Link href="#"> <button type="button" class="text-white bg-gradient-to-r from-green-400 via-green-500 to-green-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-green-300  shadow-lg shadow-green-500/50   font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2">Manage Database</button></Link>
+        </div>
+  </div>
+</div>
 
 
     {/* =============Sidebar End+========= */}
+    {/* =============Children============== */}
 
+    {children}
 
+    {/* =============Children End+========= */}
+</div>
+    {/* #######Sidebar and Children Section - End ########## */}
     
-      {children}
+  
 
       <footer>
-      <div className='bg-neutral-100 flex flex-col'>
+      <div className='bg-neutral-100 flex flex-col text-gray-900'>
 
         <div className=' flex justify-center self-center w-9/12 py-10 '>
           <div className='w-64pl-5 mx-20'>
