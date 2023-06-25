@@ -6,12 +6,12 @@ const DashboardLayout = ({children}) => {
   return (
     <div>
     {/* =========Navbar========   */}
-<div className='flex justify-around pt-4 pb-4 bg-gray-300'>
+<div className='flex justify-end pt-4 pb-4 bg-gray-300'>
 
 
 
-<Link href="/">
-<button type="button" class="text-white bg-gradient-to-r from-green-400 via-green-500 to-green-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-green-300 shadow-lg shadow-green-500/50 font-medium rounded-2xl text-sm px-5 py-2.5 text-center mr-2 mb-2 mt-2">Sign-out</button></Link>
+<Link href="/" className='pr-20'>
+<button type="button" class="text-white bg-gradient-to-r from-green-400 via-green-500 to-green-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-green-300 shadow-lg shadow-green-500/50 font-medium rounded-2xl text-xl px-5 py-2.5 text-center mr-2 mb-2 mt-2">Sign-out</button></Link>
 
 
 </div>
@@ -43,7 +43,7 @@ const DashboardLayout = ({children}) => {
 <div id="sidebar" className='flex flex-col'>
   <div className='p-10'>
         <div>
-        <Link href="/dashboard/patient_queueing"> <button type="button" class="text-white bg-gradient-to-r from-green-400 via-green-500 to-green-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-green-300  shadow-lg shadow-green-500/50   font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2">Patient Queue</button></Link>
+        <Link href="/dashboard/add_patient"> <button type="button" class="text-white bg-gradient-to-r from-green-400 via-green-500 to-green-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-green-300  shadow-lg shadow-green-500/50   font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2">Patient Queue</button></Link>
         </div>
         <div>
         <Link href="#"> <button type="button" class="text-white bg-gradient-to-r from-green-400 via-green-500 to-green-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-green-300  shadow-lg shadow-green-500/50   font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2">Manage Database</button></Link>
