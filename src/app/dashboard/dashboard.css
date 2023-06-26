@@ -54,6 +54,18 @@ body {
   line-height: 2rem;
 }
 
+
+select {
+  height: 30px;
+  border-radius: 8px;
+  margin: 15px 0;
+  padding: 4px;
+}
+
+.f-consult{
+  width: 700px;
+}
+
 @media only screen and (max-width: 1200px) {
   *{
     margin: 0;
