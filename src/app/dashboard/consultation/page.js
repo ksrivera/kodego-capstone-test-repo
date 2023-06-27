@@ -20,6 +20,7 @@ const Consultation
                         <input type="text" name="department" id="department" class="bg-gray-50 border border-gray-300 text-gray-900 sm: rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5      " placeholder="Department/College" required=""/>
                 <label for="symptom" className='pt-3'>Initial Symptom : </label>
                 <select name="symptom" id="symptom" className='leading-8'>
+                  <option value="" selected> </option>
                   <option value="Fever">Fever</option>
                   <option value="Vomiting">Vomiting</option>
                   <option value="Sore Throat">Sore Throat</option>
@@ -47,6 +48,7 @@ const Consultation
                <div>
                   <label for="productName" className=''>Product Name : </label>
                     <select name="productName" id="productName" className='leading-8'>
+                      <option value="" selected> </option>
                       <option value="Paracetamol">Paracetamol</option>
                       <option value="Bioflu">Bioflu</option>
                       <option value="Biogesic">Biogesic</option>
@@ -66,10 +68,15 @@ const Consultation
                     
                     </select>
                </div>
+               <div className='flex items-center'>
+                  <label for="quantity" class="block font-medium text-gray-900">Quantity : &nbsp;</label>
+                  <input type="text" name="quantity" id="quantity" class="bg-white border border-gray-300 text-gray-900 sm: rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-32 pl-2.5 p-1" placeholder="Quantity" required=""/>
+               </div>
               </div>
               <div className='flex flex-col'>
               <label for="status" className=''>Patient Status : </label>
                 <select name="status" id="status" className='mb-20'>
+                <option value="" selected> </option>
                   <option value="In-bed">In-bed</option>
                   <option value="Outpatient">Outpatient</option>
                  
