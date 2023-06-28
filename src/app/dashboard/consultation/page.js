@@ -39,51 +39,88 @@ const Consultation
               </div>
             </div>
             <div>
-            <label for="diagnosis" class="block mb-2  font-medium text-gray-900 ">Diagnosis</label>
+            <label for="diagnosis" class="block mb-2  font-medium ">Diagnosis</label>
                     <textarea name="message" id="symptom" class="bg-gray-50 border border-gray-300 text-gray-900 sm: rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 h-44" placeholder="Diagnosis" required=""/>
             </div>
             <div className='flex justify-between pt-3'>
-              <div>
-               <p> Medical Supplies Given : </p>
-               <div>
-                  <label for="productName" className=''>Product Name : </label>
-                    <select name="productName" id="productName" className='leading-8'>
-                      <option value="" selected> </option>
-                      <option value="Paracetamol">Paracetamol</option>
-                      <option value="Bioflu">Bioflu</option>
-                      <option value="Biogesic">Biogesic</option>
-                      <option value="Loperamide">Loperamide</option>
-                      <option value="Advil">Advil</option>
-                      <option value="Neozep">Neozep</option>
-                      <option value="Tempra for Kids">Tempra for Kids</option>
-                      <option value="Enervon">Enervon</option>
-                      <option value="Chocolate">Chocolate</option>
-                      <option value="Band-aid">Band-aid</option>
-                      <option value="Alcohol">Alcohol</option>
-                      <option value="Betadine">Betadine</option>
-                      <option value="Cotton Ball">Cotton Ball</option>
-                      <option value="Micropore">Micropore</option>
-                      <option value="Gauze">Gauze</option>
-                      <option value="Gaviscon">Gaviscon</option>
-                    
-                    </select>
-               </div>
-               <div className='flex items-center'>
-                  <label for="quantity" class="block font-medium text-gray-900">Quantity : &nbsp;</label>
-                  <input type="text" name="quantity" id="quantity" class="bg-white border border-gray-300 text-gray-900 sm: rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-32 pl-2.5 p-1" placeholder="Quantity" required=""/>
-               </div>
-              </div>
-              <div className='flex flex-col'>
-              <label for="status" className=''>Patient Status : </label>
-                <select name="status" id="status" className='mb-20'>
-                <option value="" selected> </option>
-                  <option value="In-bed">In-bed</option>
-                  <option value="Outpatient">Outpatient</option>
-                 
-                </select>
+                <div>
+                    <p className='font-semibold'> Medical Supplies Given : </p>
+                        <div className='flex flex-col'>
+                            <div>
+                                <label for="productName" className=''>Product Name : </label>
+                                  <select name="productName" id="productName" className='leading-8'>
+                                    <option value="" selected> </option>
+                                    <option value="Paracetamol">Paracetamol</option>
+                                    <option value="Bioflu">Bioflu</option>
+                                    <option value="Biogesic">Biogesic</option>
+                                    <option value="Loperamide">Loperamide</option>
+                                    <option value="Advil">Advil</option>
+                                    <option value="Neozep">Neozep</option>
+                                    <option value="Tempra for Kids">Tempra for Kids</option>
+                                    <option value="Enervon">Enervon</option>
+                                    <option value="Chocolate">Chocolate</option>
+                                    <option value="Band-aid">Band-aid</option>
+                                    <option value="Alcohol">Alcohol</option>
+                                    <option value="Betadine">Betadine</option>
+                                    <option value="Cotton Ball">Cotton Ball</option>
+                                    <option value="Micropore">Micropore</option>
+                                    <option value="Gauze">Gauze</option>
+                                    <option value="Gaviscon">Gaviscon</option>
+                                  
+                                  </select>
+                            </div>
+                            <div className='flex items-center pb-4 med-border'>
+                                <p>Available Stock : </p>&nbsp;
+                                <h2 className='bg-white p-1 pr-2 rounded-lg'>10</h2>&nbsp;&nbsp;&nbsp;
+                                
+                                
+                                <label for="quantity" class="block font-medium text-gray-900">Quantity : &nbsp;</label>
+                                <input type="text" name="quantity" id="quantity" class="bg-white border border-gray-300 text-gray-900 sm: rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-14 pl-2.5 p-1" placeholder="Qty" required=""/>
+                            </div>
+                            <div>
+                                <label for="productName" className=''>Product Name : </label>
+                                  <select name="productName" id="productName" className='leading-8'>
+                                    <option value="" selected> </option>
+                                    <option value="Paracetamol">Paracetamol</option>
+                                    <option value="Bioflu">Bioflu</option>
+                                    <option value="Biogesic">Biogesic</option>
+                                    <option value="Loperamide">Loperamide</option>
+                                    <option value="Advil">Advil</option>
+                                    <option value="Neozep">Neozep</option>
+                                    <option value="Tempra for Kids">Tempra for Kids</option>
+                                    <option value="Enervon">Enervon</option>
+                                    <option value="Chocolate">Chocolate</option>
+                                    <option value="Band-aid">Band-aid</option>
+                                    <option value="Alcohol">Alcohol</option>
+                                    <option value="Betadine">Betadine</option>
+                                    <option value="Cotton Ball">Cotton Ball</option>
+                                    <option value="Micropore">Micropore</option>
+                                    <option value="Gauze">Gauze</option>
+                                    <option value="Gaviscon">Gaviscon</option>
+                                  
+                                  </select>
+                            </div>
+                            <div className='flex items-center'>
+                                <p>Available Stock : </p>&nbsp;
+                                <h2 className='bg-white p-1 pr-2 rounded-lg'>10</h2>&nbsp;&nbsp;&nbsp;
+                                
+                                
+                                <label for="quantity" class="block font-medium text-gray-900">Quantity : &nbsp;</label>
+                                <input type="text" name="quantity" id="quantity" class="bg-white border border-gray-300 text-gray-900 sm: rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-14 pl-2.5 p-1" placeholder="Qty" required=""/>
+                            </div>
+                        </div>    
+                </div>
+                  <div className='flex flex-col'>
+                      <label for="status"  className='font-semibold'>Patient Status : </label>
+                      <select name="status" id="status" className='mb-20'>
+                          <option value="" selected> </option>
+                          <option value="In-bed">In-bed</option>
+                          <option value="Outpatient">Outpatient</option>
+                        
+                        </select>
 
-                <Link href="/dashboard/"> <button type="button" class="text-white bg-gradient-to-r from-green-400 via-green-500 to-green-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-green-300  shadow-lg shadow-green-500/50 rounded-lg px-5 py-2.5 text-center mr-2 mb-2 text-lg">Consultation Done</button></Link>
-              </div>
+                    <Link href="/dashboard/"> <button type="button" class="text-white bg-gradient-to-r from-green-400 via-green-500 to-green-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-green-300  shadow-lg shadow-green-500/50 rounded-lg px-5 py-2.5 text-center mr-2 mb-2 text-lg">Consultation Done</button></Link>
+                  </div>
             </div>
         </form>
     </div>

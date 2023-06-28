@@ -43,7 +43,7 @@ const DashboardLayout = ({children}) => {
 <div id="sidebar" className='flex flex-col'>
   <div className='p-10'>
         <div>
-        <Link href="/dashboard/add_patient"> <button type="button" class="text-white bg-gradient-to-r from-green-400 via-green-500 to-green-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-green-300  shadow-lg shadow-green-500/50   font-medium rounded-lg px-5 py-2.5 text-center mr-2 mb-2 text-xl w-52">Patient Queue</button></Link>
+        <Link href="/dashboard/patient_queue"> <button type="button" class="text-white bg-gradient-to-r from-green-400 via-green-500 to-green-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-green-300  shadow-lg shadow-green-500/50   font-medium rounded-lg px-5 py-2.5 text-center mr-2 mb-2 text-xl w-52">Patient Queue</button></Link>
         </div>
         <div>
         <Link href="#"> <button type="button" class="text-white bg-gradient-to-r from-green-400 via-green-500 to-green-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-green-300  shadow-lg shadow-green-500/50 font-medium rounded-lg text-xl px-5 py-2.5 text-center mr-2 mb-2 w-52">Manage Database</button></Link>
