@@ -2,6 +2,8 @@ import React from 'react'
 import Link from 'next/link'
 import '../dashboard/dashboard.css'
 
+
+
 const DashboardLayout = ({children}) => {
   return (
     <div>
@@ -66,7 +68,7 @@ const DashboardLayout = ({children}) => {
               </Link>
             </div>
             <div>
-              <Link href="#">
+              <Link href="/dashboard/manage_database">
                 {" "}
                 <button
                   type="button"
