@@ -42,7 +42,7 @@ const Dashboard = () => {
   return (
     <div><p> </p> 
         <line data={data} width={100} height={40} options={options} />
-        <p>dito index</p>
+        <p></p>
     </div>
   )
 }
