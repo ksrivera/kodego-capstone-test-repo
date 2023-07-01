@@ -1,47 +1,36 @@
 import React from 'react'
 
 const Dashboard = () => {
-  const data = {
-    labels: ["January", "February", "March", "April", "May", "May", "May"],
-    datasets: [
-      {
-        data:[0.1, 0.4, 0.2, 0.3, 0.7, 0.4, 0.6, 0.3],
-      },
-    ],
-  };
   
-  const options = {
-    plugins: {
-      legend: {
-        display: false,
-      },
-    },
-    elements: {
-      line: {
-        tension: 0,
-        borderWidth: 2,
-        borderColor: "rgba(47,97,68,1)",
-        fill:"start",
-        backgroundColor: "rgba(47,97,68,0.3)",
-      },
-      point: {
-        radius: 0,
-        hitRadius: 0,
-      },
-    },
-    scales: {
-      xAxis:{
-        display: false,
-      },
-      yAxis: {
-        display: false,
-      },
-    },
-  };
-
   return (
-    <div><p> </p> 
-        <line data={data} width={100} height={40} options={options} />
+    <div className='w-full pb-96 mx-auto flex justify-end'>
+
+        <div className="counter-section flex mr-56">
+              <div className="counter-box flex flex-col p-5">
+                <h2 className='text-3xl font-semibold'>Years in Operation</h2>
+                <div className="counter bg-green-400 hover:bg-green-600 p-4 text-lg font-semibold text-center rounded-3xl">10</div>
+              </div>
+              
+              <div className="counter-box flex flex-col p-5">
+                <h2 className='text-3xl font-semibold'>Total Patients Served</h2>
+                <div className="counter bg-green-400 hover:bg-green-600 p-4 text-lg font-semibold text-center rounded-3xl">5,240</div>
+              </div>
+              
+              <div className="counter-box flex flex-col p-5">
+                <h2 className=' text-3xl font-semibold'>No. of Staff</h2>
+                <div className="counter bg-green-400 hover:bg-green-600 p-4 text-lg font-semibold text-center rounded-3xl">37</div>
+              </div>
+              
+              <div className="counter-box flex flex-col p-5">
+                <h2 className=' text-3xl font-semibold'>Patient Average Satisfactory Rate</h2>
+                <div className="counter bg-green-400 hover:bg-green-600 p-4 text-lg font-semibold text-center rounded-3xl">78%</div>
+              </div>
+        </div>
+
+     
+
+
+
         <p></p>
     </div>
   )

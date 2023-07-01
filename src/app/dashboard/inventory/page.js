@@ -29,14 +29,14 @@ const Inventory = () => {
             </select>
         </div>
 
-        <Link href="/dashboard/manage_database" className='w-32 mr-10'>                
+        {/* <Link href="/dashboard/manage_database" className='w-32 mr-10'>                
                   <button
                     type="button"
                     class="text-white bg-gradient-to-r bg-green-400 hover:bg-green-600 active:bg-green-700 focus:outline-none focus:ring focus:ring-green-300 transition duration-300 ease-in-out font-medium rounded-2xl text-xl px-5 py-2.5  text-center  w-32"
                   >
                     Back
                   </button>
-                </Link>
+                </Link> */}
     </div>         
                 
 <div className='pb-10'>

@@ -5,7 +5,7 @@ import React from 'react'
 const AddPatient = () => {
   return (
     <div className="mx-auto">
-      <div>
+      <div className='flex flex-col items-center  px-6 py-8 mx-auto md:h-screen lg:py-'>
         <div class="patient-queue bg-white rounded-lg shadow">
           <div class="p-6 space-y-4 md:space-y-6 sm:p-8">
             <h1 class="text-xl font-bold leading-tight tracking-tight text-gray-900 md:text-2xl ">

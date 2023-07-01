@@ -7,7 +7,7 @@ const Manage_database = () => {
       <div>
         <Link href="/dashboard/inventory">  <div className='p-10 border-double border-emerald-400 outline-4 rounded-3xl'>Inventory</div></Link>
         <Link href="/dashboard/replenishment"><div className='p-10 border-double border-emerald-400 outline-4 rounded-3xl'>Replenish Supplies</div></Link>
-          <div className='p-10 border-double border-emerald-400 outline-4 rounded-3xl'>Remove Depleted Non-Quantifiable Items</div>
+          <div className='p-10 border-double border-emerald-400 outline-4 rounded-3xl'>S Remove Depleted Non-Quantifiable Items</div>
       </div>
 
 

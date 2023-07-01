@@ -114,15 +114,9 @@ const Consultation
                   <option value="Loperamide">Loperamide</option>
                   <option value="Advil">Advil</option>
                   <option value="Neozep">Neozep</option>
-                  <option value="Tempra for Kids">Tempra for Kids</option>
+                  <option value="Aspirin">Aspirin</option>
                   <option value="Enervon">Enervon</option>
-                  <option value="Chocolate">Chocolate</option>
-                  <option value="Band-aid">Band-aid</option>
-                  <option value="Alcohol">Alcohol</option>
-                  <option value="Betadine">Betadine</option>
-                  <option value="Cotton Ball">Cotton Ball</option>
-                  <option value="Micropore">Micropore</option>
-                  <option value="Gauze">Gauze</option>
+                  <option value="Chocolate">Chocolate</option>                 
                   <option value="Gaviscon">Gaviscon</option>
                 </select>
               </div>
@@ -160,15 +154,9 @@ const Consultation
                   <option value="Loperamide">Loperamide</option>
                   <option value="Advil">Advil</option>
                   <option value="Neozep">Neozep</option>
-                  <option value="Tempra for Kids">Tempra for Kids</option>
+                  <option value="Aspirin">Aspirin</option>
                   <option value="Enervon">Enervon</option>
-                  <option value="Chocolate">Chocolate</option>
-                  <option value="Band-aid">Band-aid</option>
-                  <option value="Alcohol">Alcohol</option>
-                  <option value="Betadine">Betadine</option>
-                  <option value="Cotton Ball">Cotton Ball</option>
-                  <option value="Micropore">Micropore</option>
-                  <option value="Gauze">Gauze</option>
+                  <option value="Chocolate">Chocolate</option>                 
                   <option value="Gaviscon">Gaviscon</option>
                 </select>
               </div>
