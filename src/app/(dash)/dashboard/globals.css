@@ -102,9 +102,49 @@ select {
   display: block;
 } */
 
+.perentadmission{
+  justify-content: center;  
+}
 
-.chilledadmission {
+.dbord{
+  width: 2100px;
+  margin-left: 275px;
+}
+
+.perentline{
+  width: 1150px;
+  padding-left: 100px;
+ 
+}
+.linechartz{
+  width: 1150px;
+  margin-right: 180px;
+}
+
+.medinv{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ }
+
+ .medicform{
+  width: 1500px;
+  }
+
+.replenishform{
+  width: 1800px;
+}
+
+.admission {
   width: 800px;
+  margin-left: 250px;
+  margin-right: 100px;
+}
+.chilledadmission {
+  width: 600px;
+}
+.patient-queue {
+  width: 600px;
 }
 
 #leftsyd {

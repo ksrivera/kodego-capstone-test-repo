@@ -10,7 +10,6 @@ import {
   Legend,
   ResponsiveContainer,
 } from "recharts";
-import { FaEllipsisV, FaRegCalendarMinus } from "react-icons/fa";
 import PieComponent from "src/components/piecomponent/PieComponent";
 
 import CardComponent from "src/components/cardcomponent/CardComponent";
@@ -64,7 +63,7 @@ const data = [
 const Main = () => {
   return (
     /* Dashboard and generate Report Section */
-    <div className="mt-24 pt-10 pb-10 px-6 bg-green-400 rounded-3xl">
+    <div className="dbord mt-24 pt-10 pb-10 px-6 bg-green-400 rounded-3xl">
      
      <h1 className="text-gray-800 text-2xl font-semibold leading-9">
           Welcome Admin!
@@ -73,9 +72,9 @@ const Main = () => {
    
       {/* For the Chart */}
 
-      <div className="flex mt-6 w-full gap-8">
-        <div className="basis-[70%] border bg-white shadow-md  rounded-md">
-          <div className="bg-gray-100 flex items-center justify-between py-4 px-5 border-b border-gray-300 mb-5">
+      <div className="perentline flex mt-6 w-full gap-8">
+        <div className="linechartz basis-[70%] border bg-white shadow-md  rounded-md">
+          <div className="bg-gray-100 linezchart flex items-center justify-between py-4 px-5 border-b border-gray-300 mb-5">
             <h2>Enrollment Overview</h2>
            
           </div>

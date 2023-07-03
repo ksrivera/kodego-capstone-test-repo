@@ -4,8 +4,8 @@ import Link from 'next/link'
 const Consultation
  = () => {
   return (
-    <div className="mx-auto pb-36 ">
-      <div className="mx-auto pt-6">
+    <div className="mx-auto pb-36 pl-52 flex flex-col items-center">
+      <div className="mx-auto pt-20">
         <p className="text-center text-4xl font-semibold pb-6">
           Consultation Form
         </p>

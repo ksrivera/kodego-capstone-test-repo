@@ -3,7 +3,7 @@ import Link from 'next/link'
 
 const Inventory = () => {
   return (
-    <div className='flex flex-col mx-auto pt-16'>
+    <div className='medinv pt-16 w-3/4 ml-96'>
         
             <p className='text-3xl font-semibold place-self-center  py-10'>Medical Inventory</p>
 
@@ -32,7 +32,7 @@ const Inventory = () => {
       
     </div>         
                 
-<div className='pb-10'>
+<div className='pb-10 medicform '>
     <div class="overflow-x-auto shadow-md sm:rounded-2xl">
     <table class="w-full text-lg text-left text-gray-500 dark:text-gray-400">
         <thead class="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">

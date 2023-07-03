@@ -15,7 +15,7 @@ const DashboardLayout = ({children}) => {
     <Flwbt_nav/>
     
     <Flwbt_sidebar/>
-    <div className='flex justify-center ml-60 '>
+    <div className=''>
       
     {children}
 

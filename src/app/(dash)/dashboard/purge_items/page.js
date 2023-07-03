@@ -3,7 +3,7 @@ import React from 'react'
 
 const Purge_items = () => {
   return (
-    <div className='mx-auto pt-32'>
+    <div className='mx-auto pt-32 ml-32'>
 <section class=" ">
     <div class="flex flex-col items-center  px-6 py-8 mx-auto md:h-screen lg:py-0">
       

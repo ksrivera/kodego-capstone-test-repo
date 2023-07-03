@@ -4,7 +4,7 @@ import React from 'react'
 const Patient_queue = () => {
   return (
     <div className="mx-auto p-20 pb-96">
-      <div className="flex ">
+      {/* <div className="flex ">
         <p> No admitted patient at the moment...</p>
         <Link href="/dashboard/add_patient" className="pl-20">
           {" "}
@@ -15,7 +15,7 @@ const Patient_queue = () => {
             Start Admission
           </button>
         </Link>
-      </div>
+      </div> */}
     </div>
   );
 }

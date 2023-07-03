@@ -3,14 +3,14 @@ import React from 'react'
 
 const Replenishment = () => {
   return (
-    <div className='flex flex-col mx-auto pt-24'>
+    <div className='flex flex-col items-center ml-60 mx-auto pt-24'>
         
             <p className='text-3xl font-semibold place-self-center py-10'>Replenish Medical Supplies</p>
    
 
         
                 
-<div className='pb-10'>
+<div className='replenishform pb-10'>
     <div class="overflow-x-auto shadow-md sm:rounded-2xl">
     <table class="w-full text-sm text-left text-gray-500 ">
         <thead class="text-md text-gray-700 uppercase bg-gray-50  ">
